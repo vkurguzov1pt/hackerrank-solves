@@ -10,10 +10,10 @@ Add code to print three lines where:
   The third line contains the product of the two numbers.
 """
 
-def print_operations(a,b):
-  print(a+b,a-b,a*b, sep='\n')
-    
+def print_operations(a, b):
+    print(a+b, a-b, a*b, sep='\n')
+
 if __name__ == '__main__':
-  a = int(input())
-  b = int(input())
-  print_operations(a,b)
+    a = int(input())
+    b = int(input())
+    print_operations(a, b)

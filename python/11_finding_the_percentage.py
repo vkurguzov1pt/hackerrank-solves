@@ -8,11 +8,15 @@
 
 def func(data: dict, query: str) -> float:
     """
-    get the average mark for specified name aka 'query'
-    """
-    marks = sum(data[query])/len(data[query])
+    data (dict): a dict containing student names - keys and marks - values
+    query (str): the name of a student whose avg marks is calculated
 
-    return marks
+    Returns:
+    float: the avg mark for the specified student
+    """
+    avg_mark = sum(data[query])/len(data[query])
+
+    return avg_mark
 
 
 if __name__ == '__main__':

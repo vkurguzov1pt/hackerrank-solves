@@ -8,7 +8,7 @@
 
 def func():
     """
-    See the task
+    See the task #2
     """
 
 
